@@ -1,0 +1,78 @@
+.container {
+  background-color: var(--bgSoft);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.addButton {
+  padding: 10px;
+  background-color: #30374a;
+  color: var(--text);
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid #888888;
+}
+
+.addButton:hover {
+  background-color: #151c2c;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding: 10px;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.productImage {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.description {
+  text-wrap: pretty;
+}
+
+.button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: var(--text);
+  border: none;
+  cursor: pointer;
+}
+.view {
+  background-color: #49a012;
+  margin-right: 10px;
+}
+
+.delete {
+  background-color: crimson;
+}
+
+.view:hover {
+  background-color: #39800d;
+  margin-right: 10px;
+}
+
+.delete:hover {
+  background-color: #941010;
+}
