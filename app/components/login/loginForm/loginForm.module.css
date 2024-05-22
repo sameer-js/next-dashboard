@@ -3,7 +3,7 @@
   padding: 50px;
   border-radius: 10px;
   width: 500px;
-  height: 500px;
+  height: 450px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,7 +13,7 @@
 
 .form input {
   width: 100%;
-  padding: 30px;
+  padding: 16px;
   border: 2px solid #2e374a;
   border-radius: 5px;
   background-color: var(--bg);
@@ -22,8 +22,9 @@
 
 .form button {
   width: 100%;
-  padding: 30px;
+  padding: 20px;
   background-color: teal;
+  font-size: medium;
   color: var(--text);
   border: none;
   cursor: pointer;
